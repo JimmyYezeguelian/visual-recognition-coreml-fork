@@ -19,8 +19,8 @@ import AVFoundation
 import VisualRecognition
 
 struct VisualRecognitionConstants {
-    static let apikey = ""     // The IAM apikey
-    static let modelIds = ["YOUR_MODEL_ID"]
+    static let apikey = "w2Cytu-o3K40KD6xZihv1F3j9jIdDp2hnYYeNuzWL1CW"     // The IAM apikey
+    static let modelIds = ["DefaultCustomModel_121588453"]
     static let version = "2018-03-19"
 }
 

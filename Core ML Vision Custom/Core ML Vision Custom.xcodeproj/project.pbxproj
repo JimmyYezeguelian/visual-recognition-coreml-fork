@@ -204,23 +204,19 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Core ML Vision Custom/Pods-Core ML Vision Custom-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Core ML Vision Custom/Pods-Core ML Vision Custom-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/IBMWatsonRestKit/RestKit.framework",
 				"${BUILT_PRODUCTS_DIR}/IBMWatsonVisualRecognitionV3/VisualRecognition.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RestKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VisualRecognition.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Core ML Vision Custom/Pods-Core ML Vision Custom-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Core ML Vision Custom/Pods-Core ML Vision Custom-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3A56CEEE051D0031AAD8021D /* [CP] Check Pods Manifest.lock */ = {
